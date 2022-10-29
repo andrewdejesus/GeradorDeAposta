@@ -1,5 +1,4 @@
-from gerarnumero import gerandonumero6
-
+from resultados import *
 
 from gerarnumero import *
 
@@ -7,7 +6,9 @@ if __name__== "__main__":
     while True:
         jogo = input("Quantidade de números: ")
         if jogo == "6":
-            print(gerandonumero6(aposta))
+            verif = gerandonumero6(aposta)
+            verificador(verif)
+            print(verif)
             break
         if jogo == "7":
             print(gerandonumero7(aposta))
