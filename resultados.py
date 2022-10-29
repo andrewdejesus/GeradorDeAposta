@@ -1,4 +1,3 @@
-from logging import exception
 import requests
 from bs4 import *
 
