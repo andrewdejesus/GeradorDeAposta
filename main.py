@@ -1,7 +1,9 @@
-from resultados import *
+
 import threading
 from gerarnumero import *
 import urllib3
+from resultado import *
+from datetime import *
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -10,19 +12,25 @@ if __name__== "__main__":
     jogo = input("Quantidade de números: ")
     if jogo == "6":
         VERIF = gerandonumero6(aposta)
-            
+        atual = datetime.now()
+
+        t1 = atual.strftime("%H:%M:%S")
+        print(f"Comparando jogos...{t1}")
         try:
-            t1 = threading.Thread(target=verificador1, args=[VERIF])
-            t2 = threading.Thread(target=verificador2, args=[VERIF])
-            t3 = threading.Thread(target=verificador3, args=[VERIF])
-            t4 = threading.Thread(target=verificador4, args=[VERIF])
-            t5 = threading.Thread(target=verificador5, args=[VERIF])
-            t6 = threading.Thread(target=verificador6, args=[VERIF])
-            t7 = threading.Thread(target=verificador7, args=[VERIF])
-            t8 = threading.Thread(target=verificador8, args=[VERIF])
-            t9 = threading.Thread(target=verificador9, args=[VERIF])
-            t10 = threading.Thread(target=verificador10, args=[VERIF])
-            t11 = threading.Thread(target=verificador11, args=[VERIF])
+            t1 = threading.Thread(target=verificador, args=(VERIF,1))
+            t2 = threading.Thread(target=verificador1, args=(VERIF,200))
+            t3 = threading.Thread(target=verificador2, args=(VERIF,400))
+            t4 = threading.Thread(target=verificador3, args=(VERIF,600))
+            t5 = threading.Thread(target=verificador4, args=(VERIF,800))
+            t6 = threading.Thread(target=verificador6, args=(VERIF,1000))
+            t7 = threading.Thread(target=verificador7, args=(VERIF,1200))
+            t8 = threading.Thread(target=verificador8, args=(VERIF,1400))
+            t9 = threading.Thread(target=verificador9, args=(VERIF,1600))
+            t10 = threading.Thread(target=verificador10, args=(VERIF,1800))
+            t11 = threading.Thread(target=verificador11, args=(VERIF,2000))
+            t12 = threading.Thread(target=verificador12, args=(VERIF,2200))
+            t13 = threading.Thread(target=verificador13, args=(VERIF,2400))
+   
             t1.start()
             t2.start()
             t3.start()
@@ -34,7 +42,28 @@ if __name__== "__main__":
             t9.start()
             t10.start()
             t11.start()
-            print("Comparando jogos...")
+            t12.start()
+            t13.start()
+
+            t1.join()
+            t2.join()
+            t3.join()
+            t4.join()
+            t5.join()
+            t6.join()
+            t7.join()
+            t8.join()
+            t9.join()
+            t10.join()
+            t11.join()
+            t12.join()
+            t13.join()
+
+            atual = datetime.now()
+
+            t2 = atual.strftime("%H:%M:%S")
+            print(VERIF)
+            print(f"fim: {t2}")
         except Exception as e:
             print(e)
             

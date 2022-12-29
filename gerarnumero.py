@@ -15,7 +15,7 @@ def gerandonumero6(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 6:
         apostafinal.sort()
@@ -29,7 +29,7 @@ def gerandonumero6(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -43,7 +43,7 @@ def gerandonumero7(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 7:
         apostafinal.sort()
@@ -57,7 +57,7 @@ def gerandonumero7(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -71,7 +71,7 @@ def gerandonumero8(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 8:
         apostafinal.sort()
@@ -85,7 +85,7 @@ def gerandonumero8(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -99,7 +99,7 @@ def gerandonumero9(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 9:
         apostafinal.sort()
@@ -113,7 +113,7 @@ def gerandonumero9(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -127,7 +127,7 @@ def gerandonumero10(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 10:
         apostafinal.sort()
@@ -141,7 +141,7 @@ def gerandonumero10(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -155,7 +155,7 @@ def gerandonumero11(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 11:
         apostafinal.sort()
@@ -169,7 +169,7 @@ def gerandonumero11(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -183,7 +183,7 @@ def gerandonumero12(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 12:
         apostafinal.sort()
@@ -197,7 +197,7 @@ def gerandonumero12(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -211,7 +211,7 @@ def gerandonumero13(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 13:
         apostafinal.sort()
@@ -225,7 +225,7 @@ def gerandonumero13(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -239,7 +239,7 @@ def gerandonumero14(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 14:
         apostafinal.sort()
@@ -253,7 +253,7 @@ def gerandonumero14(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
@@ -267,7 +267,7 @@ def gerandonumero15(aposta):
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(num)
+        apostafinal.append(str(num))
 
     if len(apostafinal) == 15:
         apostafinal.sort()
@@ -281,7 +281,7 @@ def gerandonumero15(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(num)
+                apostafinal.append(str(num))
                 
         apostafinal.sort()
         return apostafinal
