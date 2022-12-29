@@ -11,15 +11,17 @@ def gerandonumero6(aposta):
         aposta.append(random.randint(1,60))
 
     apostafinal = []
-
+    apostastr = []
     numeros_unico = set(aposta)
 
     for num in numeros_unico:
-        apostafinal.append(str(num))
+        apostafinal.append(num)
 
     if len(apostafinal) == 6:
         apostafinal.sort()
-        return apostafinal
+        for num in apostafinal:
+            apostastr.append(str(num))
+        return apostastr
     else:
         while len(apostafinal) <= 5:
             aposta.append(random.randint(1,60))
@@ -29,10 +31,12 @@ def gerandonumero6(aposta):
             numeros_unico = set(aposta)
 
             for num in numeros_unico:
-                apostafinal.append(str(num))
+                apostafinal.append(num)
                 
         apostafinal.sort()
-        return apostafinal
+        for num in apostafinal:
+            apostastr.append(str(num))
+        return apostastr
 
 def gerandonumero7(aposta):
     while len(aposta) <=6:
